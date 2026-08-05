@@ -99,8 +99,8 @@ if not LOAD:
 
     ss.auto_init_lists(True)
     regular_graphs = []
-    while len(regular_graphs) < 4:
-        print(f"Generating random 4-regular graph {len(regular_graphs)+1}/4")
+    while len(regular_graphs) < 5:
+        print(f"Generating random 4-regular graph {len(regular_graphs)+1}/5")
         random_regular_graph = nx.random_regular_graph(d=4, n=n_sqrt**2)
         if nx.is_connected(random_regular_graph):
             regular_graphs.append(random_regular_graph)
