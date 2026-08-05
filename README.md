@@ -8,6 +8,6 @@ Running a script will generate the plot and save it automatically into the `pape
 
 Note that `fig_large_graphs.py` uses pre-computed, saved values to generate its plots. To run new simulations and regenerate the plots from scratch, set `LOAD = False` inside the Python script.
 
-The code was originally developed and tested using **Python 3.14.0**.
+The code was originally developed and tested using **Python 3.14.6**.
 
 You can use `pip` to install the necessary dependencies.
